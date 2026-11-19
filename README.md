@@ -60,10 +60,12 @@ that the page carries, checked against the session cookie. File browsing is
 confined to whitelisted roots through `os.path.realpath`, and secrets, keys,
 databases, `.git`, `id_rsa` and logs other than the activity log are never
 served. Request bodies stop at 1 MB. Responses carry `nosniff`, `DENY`,
-`no-referrer`, a self-only CSP and `no-store`.
+`no-referrer`, a CSP that allows nothing but this origin and Google Fonts, and
+`no-store`.
 
-The CSP blocks the Google Fonts stylesheet, so the page renders with the system
-font stack it already declares.
+The CSP allows the Google Fonts stylesheet and font files, which is where the
+Material Symbols glyph set and the text faces come from. It is the only origin
+outside this process that a page may load.
 
 ## Demo data
 
