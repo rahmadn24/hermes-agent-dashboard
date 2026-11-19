@@ -1,0 +1,30 @@
+[Unit]
+Description=Ops Board — task board, agent chat and host status
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=ops
+Group=ops
+WorkingDirectory=/opt/ops-board
+Environment=OPS_CONFIG=/etc/hermes-dashboard/config.json
+Environment=PYTHONUNBUFFERED=1
+ExecStart=/usr/bin/python3 /opt/ops-board/ops_board.py
+Restart=on-failure
+RestartSec=5
+
+# The board reads a lot of the host and never writes outside hq_dir.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=read-only
+# hq_dir must be writable: room logs are appended there.
+ReadWritePaths=/var/lib/ops-board /srv/ops-hq
+ProtectKernelTunables=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+LockPersonality=true
+
+[Install]
+WantedBy=multi-user.target

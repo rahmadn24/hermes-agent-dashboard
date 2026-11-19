@@ -1,0 +1,11 @@
+{
+  "listen_host": "127.0.0.1",
+  "listen_port": 8899,
+  "hq_dir": "",
+  "app_name": "",
+  "owner_label": "Owner",
+  "owner_id": "owner",
+  "session_ttl": 604800,
+  "divisions": [],
+  "demo": false
+}

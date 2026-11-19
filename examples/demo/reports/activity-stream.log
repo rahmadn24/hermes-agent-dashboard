@@ -1,0 +1,20 @@
+2026-11-17T09:10:00+07:00 | DEMO | product-lead | T-101 dibuat, alur onboarding dipotong jadi tiga langkah
+2026-11-17T10:22:41+07:00 | DEMO | assistant | ringkasan all-hands minggu lalu ditulis, 14 baris
+2026-11-17T14:20:00+07:00 | DEMO | product-lead | T-102 halaman harga ditulis ulang, tiga baris tanpa tabel
+2026-11-17T16:05:19+07:00 | DEMO | ops-lead | cek disk, sisa 12 persen, retensi backup 30 hari
+2026-11-18T08:05:00+07:00 | DEMO | agency-lead | T-103 proposal pilot 4 minggu disusun
+2026-11-18T08:44:52+07:00 | DEMO | agency-lead | draf proposal masuk review internal
+2026-11-18T09:15:07+07:00 | DEMO | assistant | lima kandidat studi kasus dikumpulkan dari arsip
+2026-11-18T11:02:30+07:00 | DEMO | product-lead | catatan riset pengguna: 4 keluhan berulang soal onboarding
+2026-11-18T13:40:11+07:00 | DEMO | ops-lead | cek port, tiga layanan internal sehat
+2026-11-18T15:10:00+07:00 | DEMO | product-lead | T-102 revisi halaman harga sesuai catatan owner
+2026-11-18T17:28:44+07:00 | DEMO | assistant | weekly-notes versi baru, menunggu kirim
+2026-11-18T21:30:00+07:00 | DEMO | ops-lead | T-104 backup harian gagal tiga malam
+2026-11-18T21:32:15+07:00 | DEMO | ops-lead | penyebab: ruang disk, bukan kredensial
+2026-11-18T22:04:03+07:00 | DEMO | ops-lead | rencana: retensi 30 hari jadi 14 hari
+2026-11-19T07:45:00+07:00 | DEMO | assistant | T-106 dibuat, kumpulkan studi kasus
+2026-11-19T08:00:00+07:00 | DEMO | product-lead | T-101 onboarding masuk pengerjaan
+2026-11-19T09:12:03+07:00 | DEMO | ops-lead | retensi dipangkas, backup manual selesai 6 menit
+2026-11-19T09:20:31+07:00 | DEMO | product-lead | T-101 selesai, tiga langkah tanpa field wajib baru
+2026-11-19T09:35:47+07:00 | DEMO | agency-lead | proposal pilot terkirim ke calon klien
+2026-11-19T09:40:00+07:00 | DEMO | assistant | catatan keputusan mingguan diperbarui

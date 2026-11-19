@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-19T09:40:00+07:00",
+  "rooms": ["#all-hands", "#team-product"],
+  "status_enum": ["queued", "in_progress", "blocked", "review", "done", "cancelled"],
+  "priority_enum": ["P0", "P1", "P2", "P3"],
+  "tasks": [
+    {
+      "id": "T-101",
+      "divisi": "product",
+      "room_asal": "#all-hands",
+      "agen": "product-lead",
+      "prioritas": "P1",
+      "title": "Rapikan alur onboarding jadi tiga langkah",
+      "status": "in_progress",
+      "created_at": "2026-11-17T09:10:00+07:00",
+      "input_dari_agen": "owner",
+      "output_path": "examples/demo/docs/onboarding.md"
+    },
+    {
+      "id": "T-102",
+      "divisi": "product",
+      "room_asal": "#team-product",
+      "agen": "product-lead",
+      "prioritas": "P2",
+      "title": "Tulis ulang halaman harga supaya satu paket per baris",
+      "status": "review",
+      "created_at": "2026-11-17T14:20:00+07:00",
+      "input_dari_agen": "owner",
+      "output_path": "examples/demo/docs/pricing-copy.md"
+    },
+    {
+      "id": "T-103",
+      "divisi": "agency",
+      "room_asal": "#all-hands",
+      "agen": "agency-lead",
+      "prioritas": "P1",
+      "title": "Susun proposal pilot 4 minggu untuk calon klien manufaktur",
+      "status": "in_progress",
+      "created_at": "2026-11-18T08:05:00+07:00",
+      "input_dari_agen": "owner",
+      "output_path": "examples/demo/docs/pilot-proposal.md"
+    },
+    {
+      "id": "T-104",
+      "divisi": "ops",
+      "room_asal": "#all-hands",
+      "agen": "ops-lead",
+      "prioritas": "P0",
+      "title": "Backup harian gagal tiga malam, cek disk dan retensi",
+      "status": "blocked",
+      "created_at": "2026-11-18T21:30:00+07:00",
+      "input_dari_agen": "ops-lead",
+      "output_path": "examples/demo/reports/backup-check.log"
+    },
+    {
+      "id": "T-105",
+      "divisi": "ops",
+      "room_asal": "#all-hands",
+      "agen": "assistant",
+      "prioritas": "P3",
+      "title": "Ringkas thread all-hands jadi catatan keputusan mingguan",
+      "status": "done",
+      "created_at": "2026-11-16T10:00:00+07:00",
+      "input_dari_agen": "owner",
+      "output_path": "examples/demo/docs/weekly-notes.md"
+    },
+    {
+      "id": "T-106",
+      "divisi": "agency",
+      "room_asal": "#all-hands",
+      "agen": "assistant",
+      "prioritas": "P2",
+      "title": "Kumpulkan lima contoh studi kasus dari arsip proyek",
+      "status": "queued",
+      "created_at": "2026-11-19T07:45:00+07:00",
+      "input_dari_agen": "owner",
+      "output_path": "examples/demo/docs/case-studies.md"
+    }
+  ]
+}

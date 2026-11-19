@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "agents": [
+    {
+      "profile": "product-lead",
+      "label": "Product Lead",
+      "division": "product",
+      "order": 1,
+      "role": "Riset produk, prioritas fitur, tulisan produk"
+    },
+    {
+      "profile": "agency-lead",
+      "label": "Agency Lead",
+      "division": "agency",
+      "order": 2,
+      "role": "Proposal, penawaran, hubungan klien"
+    },
+    {
+      "profile": "ops-lead",
+      "label": "Ops Lead",
+      "division": "ops",
+      "order": 3,
+      "role": "Server, backup, deployment"
+    },
+    {
+      "profile": "assistant",
+      "label": "Assistant",
+      "division": "ops",
+      "order": 4,
+      "role": "Catatan, ringkasan, jadwal"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "all-hands",
+      "name": "All Hands",
+      "members": ["product-lead", "agency-lead", "ops-lead", "assistant"]
+    },
+    {
+      "id": "team-product",
+      "name": "Product Team",
+      "members": ["product-lead", "assistant"]
+    }
+  ]
+}

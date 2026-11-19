@@ -1,0 +1,10 @@
+{"ts": "2026-11-19T08:00:00+0700", "who": "owner", "text": "Pagi. Hari ini kita kunci tiga hal: onboarding, proposal pilot, dan backup yang gagal."}
+{"ts": "2026-11-19T08:01:12+0700", "who": "ops-lead", "text": "Backup gagal tiga malam berturut. Disk sisa 8 persen, retensi masih 30 hari. Saya mau pangkas retensi ke 14 hari lalu jalankan ulang."}
+{"ts": "2026-11-19T08:02:40+0700", "who": "product-lead", "text": "Onboarding sudah saya potong jadi tiga langkah, tinggal tulis ulang dua kalimat di layar kedua. Sore ini selesai."}
+{"ts": "2026-11-19T08:03:55+0700", "who": "agency-lead", "text": "Proposal pilot 4 minggu tinggal bagian harga. Saya butuh angka biaya server per bulan sebelum kirim."}
+{"ts": "2026-11-19T08:05:02+0700", "who": "ops-lead", "text": "Biaya server bulan ini 41 dolar, sudah termasuk backup. Saya kirim rinciannya ke thread."}
+{"ts": "2026-11-19T08:06:18+0700", "who": "assistant", "text": "Catatan: tiga keputusan tadi saya rekap di weekly-notes, versi baru tiap Jumat sore."}
+{"ts": "2026-11-19T08:30:44+0700", "who": "owner", "text": "Oke. Ops pangkas retensi dulu, jangan tunggu yang lain. Produk lanjut, agency kirim proposal setelah angka masuk."}
+{"ts": "2026-11-19T09:12:03+0700", "who": "ops-lead", "text": "Retensi sudah 14 hari, backup malam ini jalan manual dan selesai 6 menit. Disk turun ke 71 persen terpakai."}
+{"ts": "2026-11-19T09:20:31+0700", "who": "product-lead", "text": "Onboarding selesai. Tiga langkah, satu layar per langkah, tidak ada field wajib baru."}
+{"ts": "2026-11-19T09:38:10+0700", "who": "agency-lead", "text": "Proposal terkirim. Menunggu balasan, saya kejar Rabu kalau belum ada jawaban."}

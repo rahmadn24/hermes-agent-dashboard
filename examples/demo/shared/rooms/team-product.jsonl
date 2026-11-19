@@ -1,0 +1,4 @@
+{"ts": "2026-11-18T15:10:00+0700", "who": "owner", "text": "Halaman harga masih terlalu ramai. Satu paket satu baris, tanpa tabel perbandingan."}
+{"ts": "2026-11-18T15:12:22+0700", "who": "product-lead", "text": "Sudah saya tulis ulang jadi tiga baris. Angka tidak berubah, hanya susunannya."}
+{"ts": "2026-11-18T15:14:05+0700", "who": "assistant", "text": "Versi baru saya taruh di docs/pricing-copy.md, status menunggu review."}
+{"ts": "2026-11-19T07:50:12+0700", "who": "product-lead", "text": "Tinggal satu keputusan: paket tengah tetap jadi sorotan atau tidak. Saya usul tidak, biar tiga baris terlihat setara."}
